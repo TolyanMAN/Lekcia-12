@@ -1,17 +1,17 @@
 /*function getMaxSubSum()
 {
-    let arr = [1, -2, 3, 4, -9, 6]
-    let max = 0;
+  let arr = [1, -2, 3, 4, -9, 6]
+ let max = 0;
 
     for(let i = 0; i < arr[arr.length-1]; i++)
     {
         if(arr[i] > arr[i+1])
         {
-            max += arr[i];
-        }
+        max += arr[i];
+  }
         else if(arr[i] < arr[i+1])
         {
-            max += arr[i+1];
+    max += arr[i+1];
         }
     }
     return max;
@@ -22,7 +22,7 @@ alert(getMaxSubSum());
 
 function fSum() {
 
-    let array = [1];  //Если нечего не записывать в массив, не работает код
+    let array = [1]; 
   
     while (true) {
   
